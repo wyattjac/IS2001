@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Adventures</title>
+    <link rel="stylesheet" type="text/css" href="css/mystyles.css">
+</head>
+<body>
+
+    <!-- DIV 1: Header -->
+    <div id="header">
+        <h1 id="top">Basketball</h1>
+        <a href="index.html">Resume Page</a>
+    </div>
+
+    <!-- DIV 2: Main Content -->
+    <div id="content">
+        <h2>Best Players Ever</h2>
+        <ul>
+            <li class="emphasizeText">LeBron James</li>
+                <ol>
+                    <li>Cleveland Cavaliers</li>
+                    <li>Los Angeles Lakers</li>
+                </ol>
+
+            <li>Michael Jordan</li>
+                <ol>
+                    <li>Chicago Bulls</li>
+                    <li>Washington Wizards</li>
+                </ol>
+
+            <li>Nikola Jokic</li>
+                <ol>
+                    <li>Denver Nuggets</li>
+                </ol>
+        </ul>
+
+        <p>These are the GOATS!</p>
+        <img src="assets/img/GoatPic.jpg" alt="Goat Pic" width="300">
+    </div>
+
+    <!-- DIV 3: Video + Footer -->
+    <div id="videoSection">
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/RpffLSYIpVY" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+        </iframe>
+
+        <br><br>
+    </div>
+
+<div id="tableauSection">
+
+    <div class='tableauPlaceholder' id='viz1776126352001' style='position: relative'>
+        <noscript>
+            <a href='#'>
+                <img alt='Sheet 5' src='https://public.tableau.com/static/images/Ta/TableauStuffs/Sheet5/1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+
+        <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https://public.tableau.com/' />
+            <param name='embed_code_version' value='3' />
+            <param name='name' value='TableauStuffs/Sheet5' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+        </object>
+    </div>
+
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1776126352001');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = '100%';
+        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+<a href="#top">Go to Top</a>
+</div>
+
+</body>
+</html>
